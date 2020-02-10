@@ -15,6 +15,5 @@ python3 写的一些权限维持脚本
 | [T1004](https://attack.mitre.org/techniques/T1004/) | winlogon_helper_dll | exe         |
 | [T1197](https://attack.mitre.org/techniques/T1197/) | bitsadmin           | exe,command |
 | [T1136](https://attack.mitre.org/techniques/T1136/) | account             | user        |
-|                                                     |                     |             |
-|                                                     |                     |             |
-|                                                     |                     |             |
+
+注册表修改使用的是win32 api，可用在64和32为系统
